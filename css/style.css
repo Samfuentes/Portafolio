@@ -30,8 +30,9 @@
 .info {
   margin: 173px 202px;
 }
-.col h1{
+.container h1{
   font-size: 64px;
+  font-weight: bolder;
 }
 .col .button_one{
   color: var(--accent-color2);
@@ -51,6 +52,8 @@
 .proyects p{
   font-size: 16px;
 }
-
+h1{
+color:red;
+}
 
 

@@ -8,8 +8,11 @@
   font-family: "Space Grotesk", sans-serif;
   color: var(--primary-color);
   font-size: 23px;
+  margin: 0px;
 }
-
+.hello {
+  margin: 150px 200px;
+}
 .ilustration {
   border-radius: 242.5px;
   width: 546px;
@@ -27,8 +30,27 @@
 .info {
   margin: 173px 202px;
 }
-.hello {
+.col h1{
   font-size: 64px;
 }
+.col .button_one{
+  color: var(--accent-color2);
+  font-weight: bold;
+  border: 2px solid var(--accent-color2);
+  background-color: #d85f07;;
+}
+.col .button_one:hover{
+ border: 2px solid black
+ 
+}
+
+.proyects h2{
+  font-size: 32px;
+}
+
+.proyects p{
+  font-size: 16px;
+}
+
 
 

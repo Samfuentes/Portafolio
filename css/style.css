@@ -10,8 +10,9 @@
   font-size: 23px;
   margin: 0px;
 }
-.hello {
-  margin: 150px 200px;
+.hero , .hello{
+  margin: 100px 200px;
+  margin-bottom: 200px;
 }
 .ilustration {
   border-radius: 242.5px;
@@ -52,8 +53,6 @@
 .proyects p{
   font-size: 16px;
 }
-h1{
-color:red;
-}
+
 
 

@@ -4,13 +4,27 @@
   --accent-color2: #d85f07;
   --shadow-one:box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
 }
+nav {
+  font-size: 16px;
+  padding: 20px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
 .container {
   font-family: "Space Grotesk", sans-serif;
   color: var(--primary-color);
   font-size: 23px;
-  margin: 0px;
+  margin: 0%;
 }
-.hero , .hello{
+
+.hero,
+.hello {
   margin: 100px 200px;
   margin-bottom: 200px;
 }
@@ -31,28 +45,25 @@
 .info {
   margin: 173px 202px;
 }
-.container h1{
+.container h1 {
   font-size: 64px;
   font-weight: bolder;
 }
-.col .button_one{
+.col .button_one {
   color: var(--accent-color2);
   font-weight: bold;
   border: 2px solid var(--accent-color2);
-  background-color: #d85f07;;
+  background-color: #d85f07;
 }
-.col .button_one:hover{
- border: 2px solid black
- 
+.col .button_one:hover {
+  border: 2px solid black;
 }
 
-.proyects h2{
+.proyects h2 {
   font-size: 32px;
 }
 
-.proyects p{
+.proyects p {
   font-size: 16px;
 }
-
-
 

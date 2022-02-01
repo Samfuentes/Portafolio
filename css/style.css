@@ -17,7 +17,7 @@ nav li {
 
 nav ul {
   padding:0;
-  margin-right:10px;
+
 }
 nav a{
   text-decoration: none;
@@ -42,6 +42,14 @@ nav li.active a , nav a:hover {
 .hello {
   margin: 100px 200px;
 }
+
+.label{
+  color: var(--primary-color);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 23px;
+  margin-bottom: 100px;
+  border-top: 2px dashed var(--accent-color2);
+}
 .ilustration {
   border-radius: 242.5px;
   width: 546px;
@@ -55,7 +63,9 @@ nav li.active a , nav a:hover {
   color: var(--accent-color2);
   font-weight: bold;
 }
-
+.project_img{
+  border-radius: 100px;
+}
 .info {
   margin: 173px 202px;
 }
@@ -73,7 +83,10 @@ nav li.active a , nav a:hover {
   border: 2px solid black;
   transition: all 150ms ease-in-out  ;
 }
+.proyects{
+  margin-top: 10px;
 
+}
 .proyects h2 {
   font-size: 32px;
 }
@@ -108,7 +121,8 @@ footer .social_link a:hover{
 }
 @media (max-width: 900px) {
 
-  nav a{
+  nav a,.label{
     font-size:16px
   }
+  
 }

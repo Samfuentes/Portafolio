@@ -83,7 +83,30 @@ nav li.active a , nav a:hover {
   font-size: 16px;
 }
 
+footer{
+  margin:60px
+}
+footer .email-link{
+  text-decoration: none;
+  color: var(--primary-color);
 
+}
+footer .email-link:hover{
+  color: var(--accent-color2);
+}
+
+footer .social_link a{
+  margin: 20px;
+  color: white;
+  line-height: 10px;
+  background-color: var(--accent-color2);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+footer .social_link a:hover{
+  background-color:white;
+  color:var(--accent-color2);
+}
 @media (max-width: 900px) {
 
   nav a{

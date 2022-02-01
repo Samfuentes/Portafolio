@@ -40,8 +40,7 @@ nav li.active a , nav a:hover {
 
 .hero,
 .hello {
-  margin: 50px 200px;
-  margin-bottom: 200px;
+  margin: 100px 200px;
 }
 .ilustration {
   border-radius: 242.5px;
